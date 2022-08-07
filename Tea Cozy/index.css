@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: black;
+    z-index: 2;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+}
+
+h1 {
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("./images/Background.jpeg");
+    display: flex;
+    align-items: center;
+}
+
+.mission div {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.featured {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+
+.figrow {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-right: 25px;
+}
+
+figcaption {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.locations {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/Locations.jpeg")
+}
+
+.locations h2 {
+    background-color: transparent;
+}
+
+.locationrow {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    width: 100%;
+}
+
+.locationrow div {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0.9;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    margin: 60px 0px 20px 20px;
+}
